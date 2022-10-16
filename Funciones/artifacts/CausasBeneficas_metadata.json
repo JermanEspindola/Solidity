@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_montoObjetivo",
+						"type": "uint256"
+					}
+				],
+				"name": "agregar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombreCausa",
+						"type": "string"
+					}
+				],
+				"name": "comprobar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombreCausa",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_montoDonacion",
+						"type": "uint256"
+					}
+				],
+				"name": "donar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Funciones/causas_beneficas.sol": "CausasBeneficas"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Funciones/causas_beneficas.sol": {
+			"keccak256": "0x3826a98bba6d395c77b9d8ca7c228b0770e0a3620fd8b7e2d06943dff7839a20",
+			"urls": [
+				"bzz-raw://47c5ca106997b124c201edc598a3edf6499d0862a72c89e6f743dae0d3fcee4a",
+				"dweb:/ipfs/QmcyZYViW79HXyD72suf9Rq7KtrWign7r59nvzN3vTNPkZ"
+			]
+		}
+	},
+	"version": 1
+}
